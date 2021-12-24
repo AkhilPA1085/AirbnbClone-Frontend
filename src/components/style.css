@@ -1,0 +1,113 @@
+.body{
+    font-family: 'Varela Round', sans-serif;
+}
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.header_img{
+    width: 36%;
+}
+.header_end{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-brand{
+    width: 63%;
+}
+.bg-black{
+    padding: 45px;
+}
+
+.banner-image{
+    background-image: url('../images/intro.webp');
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+   
+}
+.btn-primary{
+    background-color: white;
+    border-radius: 15px;
+    border: none;
+    
+}
+.btn-gradient{
+    -webkit-text-fill-color: transparent !important;
+    background: -webkit-linear-gradient(
+90deg, #6F019C 0%, #C6017E 135.12%) !important;
+    background: -moz-linear-gradient(90deg, #6F019C 0%, #C6017E 135.12%) !important;
+    background: linear-gradient(
+90deg, #6F019C 0%, #C6017E 135.12%) !important;
+    -webkit-background-clip: -webkit-text !important;
+    -webkit-background-clip: text !important;
+}
+.btn-primary:hover{
+    background-color: white;
+    border: none;
+}
+.btn:focus,.btn:active:focus,.btn.active:focus,
+.btn.focus,.btn:active.focus,.btn.active.focus {
+    outline: none;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus{
+    outline:none;
+    box-shadow:none;
+}
+.card{
+    border-radius: 15px;
+}
+.activity_img{
+    background-image: url('../activities/activity\ 1.jpg');
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    padding: 20px;
+   
+}
+.home_activity_img{
+    background-image: url('../activities/activity\ 2.jpg');
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    padding: 20px;
+}
+.activity_img3{
+    background-image: url('../activities/activity\ 3.jpg');
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+ul{
+    list-style-type:none
+}
+.btn-secondary{
+    background-color: blue;
+    color: white;
+}
+.form-group{
+    padding: 8px;
+}
